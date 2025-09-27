@@ -2,6 +2,8 @@
 
 An interactive and powerful **AI chatbot with UI**, built using [Groq API](https://console.groq.com/) and the **LLaMA 3.3–70B Versatile model**. This Streamlit project allows users to have real-time, intelligent conversations with a large language model through a modern and user-friendly web interface.
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://choudary-ai.streamlit.app)
+
 ---
 
 ## 📌 Features
