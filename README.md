@@ -1,9 +1,15 @@
-Got it 👍
+<img width="1440" height="900" alt="Screenshot 2025-12-20 at 5 36 06 PM" src="https://github.com/user-attachments/assets/87bdc83f-668f-41b4-a373-d29caae84ee5" />Got it 👍
 Below is a **clean, professional, open-source–friendly README rewritten for *you*** (as the contributor/learner), with **no personal emails**, clear learning outcomes, mistakes, and how you solved them. You can directly replace your `README.md` with this.
 
 ---
 
 # 🤖 Groq LLM Streamlit Chatbot (Open Source)
+
+## 🌐 Live Demo
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://llama3-app-chatbot-kcvkpv3bxkayqs3ohwjlqp.streamlit.app)
+
+👉 https://llama3-app-chatbot-kcvkpv3bxkayqs3ohwjlqp.streamlit.app
+
 
 An interactive **AI chatbot with a modern UI**, built using **Groq API** and **LLaMA 3.3–70B Versatile** model, wrapped inside a clean **Streamlit** interface.
 
@@ -11,11 +17,12 @@ This project was built as a **learning-driven open-source experiment** to unders
 
 ---
 
-## 🌟 Why This Project?
+## 🌟 UI development**, I wanted to:
 
-As a fresher exploring **LLMs + UI development**, I wanted to:
+This project explores how large language models can be integrated into
+a real-world Streamlit application with secure API handling and a modern UI.
 
-* Go beyond basic scripts
+* Basic scripts
 * Build a **real chatbot UI**
 * Learn **API integration, error handling, and deployment**
 * Understand **common mistakes developers face** and fix them independently
@@ -40,8 +47,11 @@ This repo reflects that journey.
 
 > UI snapshots of the chatbot interface
 
-![Chat UI Screenshot](https://github.com/user-attachments/assets/cc92dfe1-0edf-4a22-b2b5-d79334f18192)
-![Chat UI Screenshot](https://github.com/user-attachments/assets/2fa19a28-e115-4bb3-bf00-e3fa92c02d08)
+<img width="1440" height="900" alt="Screenshot 2025-12-20 at 5 36 06 PM" src="https://github.com/user-attachments/assets/50e48236-e61c-4d58-9bc5-4e217589511c" />
+<img width="1440" height="849" alt="Screenshot 2025-12-20 at 5 40 20 PM" src="https://github.com/user-attachments/assets/07fefc71-b189-4d69-863c-96769dc1aadf" />
+<img width="1440" height="849" alt="Screenshot 2025-12-20 at 5 40 20 PM" src="https://github.com/user-attachments/assets/bed003c9-e985-4848-b9e1-1835a98c9d95" />
+
+
 
 ---
 
@@ -65,7 +75,7 @@ This repo reflects that journey.
 | Mistake                                   | How I Solved It                           |
 | ----------------------------------------- | ----------------------------------------- |
 | Using wrong / missing API key             | Learned proper `.env` & secrets handling  |
-| Streamlit crashing due to missing secrets | Created correct `.streamlit/secrets.toml` |
+| Streamlit crashing due to missing secrets | used to correct `.streamlit/secrets.toml` |
 | UI looked basic initially                 | Added custom CSS & layout fixes           |
 | Hard-coded logic                          | Refactored to configurable options        |
 | Not understanding LLM streaming           | Learned token streaming properly          |
@@ -102,7 +112,7 @@ GROQ_API_KEY=your_groq_api_key_here
 ### 4️⃣ Run the app
 
 ```bash
-streamlit run app.py
+streamlit run kmk.py
 ```
 
 ---
@@ -112,8 +122,8 @@ streamlit run app.py
 ```
 groq-streamlit-chatbot/
 │
-├── app.py              # Main Streamlit app
-├── .env                # API key (ignored in git)
+├── kmk.py              # Main Streamlit app
+├── .TOML                # API key (ignored in git)
 ├── requirements.txt    # Dependencies
 └── README.md           # Documentation
 ```
