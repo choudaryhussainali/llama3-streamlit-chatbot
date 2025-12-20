@@ -49,7 +49,7 @@ This repo reflects that journey.
 
 <img width="1440" height="900" alt="Screenshot 2025-12-20 at 5 36 06 PM" src="https://github.com/user-attachments/assets/50e48236-e61c-4d58-9bc5-4e217589511c" />
 <img width="1440" height="849" alt="Screenshot 2025-12-20 at 5 40 20 PM" src="https://github.com/user-attachments/assets/07fefc71-b189-4d69-863c-96769dc1aadf" />
-<img width="1440" height="849" alt="Screenshot 2025-12-20 at 5 40 20 PM" src="https://github.com/user-attachments/assets/bed003c9-e985-4848-b9e1-1835a98c9d95" />
+
 
 
 
