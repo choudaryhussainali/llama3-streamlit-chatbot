@@ -21,6 +21,7 @@ st.markdown("""
         }
         .user {
             text-align: right;
+            background-color: black;
         }
         .bot {
             text-align: left;
@@ -94,5 +95,6 @@ if submitted and user_input:
     st.session_state.chat_history.append({"role": "assistant", "content": bot_reply})
 
     st.rerun()
+
 
 
